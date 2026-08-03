@@ -1,0 +1,53 @@
+body {
+    background: #f7f3ef;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    text-align: center;
+    color: #333;
+    margin: 0;
+    padding: 50px;
+}
+
+
+/* 大标题 */
+h1 {
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+
+/* 副标题 */
+p {
+    font-size: 20px;
+    color: #777;
+    margin-bottom: 50px;
+}
+
+
+/* 文案展示柜 */
+.card {
+    background: white;
+    width: 350px;
+    margin: 25px auto;
+    padding: 35px;
+
+    border-radius: 25px;
+
+    font-size: 20px;
+    line-height: 1.8;
+
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+
+    transition: 0.3s;
+}
+
+
+/* 鼠标放上去 */
+.card:hover {
+
+    transform: translateY(-8px);
+
+    box-shadow: 0 20px 40px rgba(0,0,0,0.12);
+
+}
