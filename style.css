@@ -51,3 +51,15 @@ p {
     box-shadow: 0 20px 40px rgba(0,0,0,0.12);
 
 }
+body {
+    background: #f7f3ef;
+}
+
+
+/* 卡片区域 */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(2, 350px);
+    justify-content: center;
+    gap: 30px;
+}
