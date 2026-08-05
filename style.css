@@ -61,5 +61,5 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 350px);
     justify-content: center;
-    gap: 30px;
+    gap: 50px;
 }
